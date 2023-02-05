@@ -41,7 +41,7 @@ function OneNews({ news }) {
 
 
     return (
-        <div className='newsComBack'>
+        <div className='allComBack'>
             <Container>
                 <Row>
                     <Col lg="6">
@@ -51,11 +51,11 @@ function OneNews({ news }) {
                     </Col>
                     <Col lg='6'>
                         <img src={selectedNews.image} className='d-block ms-auto' alt="img" />
-                        <div class="navbutton">
+                        <div className="navbutton">
                             <Link className='disabled' to={`/news/${Number(selectedNews.key) - 1}`} id='nav1' >←</Link>
                             <Link to={`/news/${Number(selectedNews.key) + 1}`} id='nav2' >→</Link>
                         </div>
-                        <div class="pageIcons">
+                        <div className="pageIcons">
                             <a href='#'><FontAwesomeIcon id='link' icon={faLink}></FontAwesomeIcon></a>
                             <a href='#'><FontAwesomeIcon id='facebook' icon={faFacebookSquare}></FontAwesomeIcon></a>
                             <a href='#'><FontAwesomeIcon id='linkedin' icon={faLinkedin}></FontAwesomeIcon></a>

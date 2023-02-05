@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../images/Asan-2.png";
 import SocialMediaObjects from "./SocialMediaObjects";
 import { Row, Col, Container } from "react-bootstrap";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const iconsColor = {
   color : '#646464'
@@ -18,8 +20,9 @@ function Footer() {
               <img src={logo} width="101px" alt="logo" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor incididunt labore et dolore nmagna aliqua.</p>
             </div>
-            <div>
+            <div className="d-flex justify-content-start">
               <SocialMediaObjects iconsColor={iconsColor} />
+              <button style={{background: 'none', border: 'none', color: '#646464', fontSize: '20px', lineHeight: '12px', marginLeft: '25px'}}><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
             </div>
           </Col>
           <Col lg={2} className='otherColFooter' >

@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import { Link } from "react-router-dom";
-import OneProject from "./OneProject";
 
 const responsive = {
   desktop: {
@@ -37,15 +36,14 @@ function ProjectsCom({ projects }) {
                 <h5>{project.head}</h5>
                 <img src={project.image} alt='projectImage' width={'397px'} />
                 <p>{project.text}</p>
-                <Link to={'/:head'} className="defaultLink" id={project.key} href={'/projects/:head'} >Ətraflı oxu</Link>
+                <Link to={`${project.key}`} className='moreInfo'>Ətraflı oxu</Link>
               </div>
             )}
           </Carousel>
         </div>
-        <OneProject />
       </Container>
     </div>
-  );
+  )
 }
 
 export default ProjectsCom;

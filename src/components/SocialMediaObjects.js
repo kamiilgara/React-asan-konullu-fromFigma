@@ -2,7 +2,6 @@ import React from "react";
 import {
   FacebookFilled,
   InstagramOutlined,
-  SearchOutlined,
   TwitterOutlined,
   YoutubeFilled,
 } from "@ant-design/icons";
@@ -31,11 +30,6 @@ function SocialMediaObjects({iconsColor}) {
           <a className="social-a" style={iconsColor} href={"/"}>
             <YoutubeFilled />
           </a>
-        </ListGroupItem>
-        <ListGroupItem>
-          <button type={"button"}>
-            <SearchOutlined size="large" style={iconsColor} />
-          </button>
         </ListGroupItem>
       </ListGroup>
     </div>

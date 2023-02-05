@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function NewsComponents({ news }) {
 
   return (
-    <div className='newsComBack'>
+    <div className='allComBack'>
       <Container>
         <h1 className="main-h1">XƏBƏRLƏR</h1>
         <ul className='ulList'>

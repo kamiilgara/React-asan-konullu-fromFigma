@@ -2,12 +2,17 @@ import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import logo from "../images/Asan-1.png";
 import { MenuOutlined } from "@ant-design/icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { useEffect, useState } from "react";
 import SocialMediaObjects from "./SocialMediaObjects";
 import "../App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function NavbarCom({ classs }) {
+
+
   return (
-    <div className={classs} id="headerBack">
+    <div className={classs} id="headerBack" >
       <Navbar bg="transparent" className="container" expand="md">
         <Navbar.Brand href="/home" className="App-logo">
           <img src={logo} width={"84px"} alt={"Asan logo"} />
@@ -48,6 +53,7 @@ function NavbarCom({ classs }) {
             <Nav.Link href={"/info"}>ƏLAQƏ</Nav.Link>
           </Nav>
           <SocialMediaObjects />
+          <button style={{ background: 'none', border: 'none', color: 'white', fontSize: '20px', lineHeight: '12px', marginLeft: '25px'}}><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
         </Navbar.Collapse>
       </Navbar>
     </div>

@@ -9,7 +9,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel className="mainHead" onSelect={handleSelect} slide={true}>
+    <Carousel className="mainHead" onSelect={handleSelect} slide={true} interval={60000} >
       <Carousel.Item>
         <div className="carouselText container">
           {/* <img className="mainCarousel d-block w-100" /> */}

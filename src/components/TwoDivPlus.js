@@ -7,7 +7,7 @@ function TwoDivPlus() {
     <div className="aboutAct">
       <Row>
         <Col lg={"6"}>
-          <div className="d-flex divPlus ms-auto">
+          <a href='/' className="d-flex divPlus ms-auto">
             <div>
               <FaHandHoldingHeart />
             </div>
@@ -15,10 +15,10 @@ function TwoDivPlus() {
               <h5>1000+</h5>
               <p>KÖNÜLLÜ</p>
             </div>
-          </div>
+          </a>
         </Col>
         <Col lg={"6"}>
-          <div className="d-flex divPlus me-auto">
+          <a href="/" className="d-flex divPlus me-auto">
             <div>
               <FaCalendar />
             </div>
@@ -26,7 +26,7 @@ function TwoDivPlus() {
               <h5>100+</h5>
               <p>LAYİHƏ</p>
             </div>
-          </div>
+          </a>
         </Col>
       </Row>
     </div>
