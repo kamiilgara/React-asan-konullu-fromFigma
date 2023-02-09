@@ -10,11 +10,11 @@ function MediaPage({ media }) {
 
         <Row>
           {media.map(mediaa =>
-            <Col lg='4' key={media.id}>
-              <div className='media'>
+            <Col lg='4' key={mediaa.id}>
+              <div className='media mx-auto'>
                 <h3>{mediaa.date}</h3>
                 <h2>{mediaa.head}</h2>
-                <img src={mediaa.image} className='d-block' />
+                <img src={mediaa.image} className='d-block' alt='media' />
                 <p>{mediaa.text}</p>
                 <Link to={`${mediaa.id}`} className='moreInfo'>Ətraflı oxu</Link>
               </div>

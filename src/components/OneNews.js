@@ -43,13 +43,13 @@ function OneNews({ news }) {
     return (
         <div className='allComBack'>
             <Container>
-                <Row>
+                <Row className='oneNews'>
                     <Col lg="6">
                         <h1>XƏBƏRLƏR</h1>
                         <h3>{selectedNews.head}</h3>
                         <p>{selectedNews.text}</p>
                     </Col>
-                    <Col lg='6'>
+                    <Col lg='6' >
                         <img src={selectedNews.image} className='d-block ms-auto' alt="img" />
                         <div className="navbutton">
                             <Link className='disabled' to={`/news/${Number(selectedNews.key) - 1}`} id='nav1' >←</Link>

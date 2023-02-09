@@ -12,22 +12,22 @@ function SocialMediaObjects({iconsColor}) {
     <div className="social">
       <ListGroup className="list-group-horizontal">
         <ListGroupItem>
-          <a className="social-a" style={iconsColor} href={"/"}>
+          <a className="social-a" style={iconsColor} href='https://az-az.facebook.com'>
             <FacebookFilled />
           </a>
         </ListGroupItem>
         <ListGroupItem>
-          <a className="social-a" style={iconsColor} href={"/"}>
+          <a className="social-a" style={iconsColor} href={"https://www.instagram.com/"}>
             <InstagramOutlined />
           </a>
         </ListGroupItem>
         <ListGroupItem>
-          <a className="social-a" style={iconsColor} href={"/"}>
+          <a className="social-a" style={iconsColor} href={"https://twitter.com/"}>
             <TwitterOutlined />
           </a>
         </ListGroupItem>
         <ListGroupItem>
-          <a className="social-a" style={iconsColor} href={"/"}>
+          <a className="social-a" style={iconsColor} href={"https://www.youtube.com/"}>
             <YoutubeFilled />
           </a>
         </ListGroupItem>

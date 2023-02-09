@@ -30,7 +30,7 @@ function ProjectsCom({ projects }) {
         <div id='forPosition'>
           <h1>LAYİHƏLƏR</h1>
           <p>BEYNƏLXALQ</p>
-          <Carousel responsive={responsive} className='projectsCarousel' removeArrowOnDeviceType={["tablet", "mobile"]} renderArrowsWhenDisabled>
+          <Carousel responsive={responsive} className='projectsCarousel' renderArrowsWhenDisabled>
             {projects.map((project) =>
               <div key={project.key}>
                 <h5>{project.head}</h5>

@@ -65,7 +65,7 @@ function HistoryToday() {
   return (
     <div className="topmargin">
       <Row>
-        <Col lg={3} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <Col lg={3} className='col-6' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <div className="leftDaily">
             <h3>Tarixdə Bu Gün</h3>
             <h1>31 Mart</h1>
@@ -81,10 +81,10 @@ function HistoryToday() {
             </div>
           </div>
         </Col>
-        <Col lg={9} id='dailyNews' >
-          <Carousel responsive={responsive} renderArrowsWhenDisabled removeArrowOnDeviceType={["tablet", "mobile"]} >
+        <Col className="col-6" lg={9} id='dailyNews' >
+          <Carousel responsive={responsive} renderArrowsWhenDisabled removeArrowOnDeviceType={['mobile', 'tablet']} >
             {dailyNews.map((dailyNew) =>
-              <div key={dailyNew.key} id='dailyHistory' >
+              <div key={dailyNew.key} className='dailyHistory' >
                 <h3>{dailyNew.header}</h3>
                 <h2>{dailyNew.time}</h2>
                 <p>{dailyNew.text}</p>

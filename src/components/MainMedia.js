@@ -4,8 +4,8 @@ import { Col, Row, Container } from "react-bootstrap";
 
 function MainMedia() {
   return (
-    <Row>
-      <Col lg={4}>
+    <Row className="mediaCom">
+      <Col lg={4} className='col-6' >
         <div className="ourProjects">
           <p>MEDIA</p>
           <h5>ASAN Könüllüləri Mediada!</h5>
@@ -17,9 +17,9 @@ function MainMedia() {
             quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in</h4>
         </div>
-        <button type={'button'} className={'defaultButton'}>Ətraflı oxu</button>
+        <a href="/media" className='defaultLink'>Ətraflı oxu</a>
       </Col>
-      <Col lg={8}>
+      <Col lg={8} className='col-6' >
         <Container>
           {/* <Container style={{position : 'absolute'}}>
         <a className="mainPageMediaIcons" id="facebookbtn" href={'/'}><img width={'34.46px'} src={'https://s3-alpha-sig.figma.com/img/3198/f8a0/02c4d4aefece1619c8d221f138b7a564?Expires=1674432000&Signature=j0jr2cxwm5Q-bbw4Cp87-plbUvhx0bubiF5jciu0uswkSVvMFPR4iP~jDiZPbycwotxgPFu2t182Q4oQb37KGeiFt2wV6J4zU~rkanIL~rU14RyyoouvMPPUqH6sE-P5-tWh7V-f9yAH~SwhxZMFwLq2pA0xwGpemHg0sa20gLOdCl0oGqHp4InkCWlfSNLn3DUoSWY0KuakoZpah7hH~c4QZ2Vo34DPvmNZ6M3Hp7vUnWnDoTFBDMO7d0xri1vHSNEPEByalyFCaNgMeQG-gMOZozpaEnfdlY7X1u54LDBZSeOansYLfPqigKd95HHFSBW7zNh0t2p9RM-icJmRvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'} alt={'/'} /></a>
@@ -39,7 +39,7 @@ function MainMedia() {
         <a className="mainPageMediaIcons" href={'/'}><img src={''} alt={'/'} /></a> */}
           {/* </Container> */}
 
-          <img className="d-block ms-auto mt-5" src={socialMedias} alt="immgg" />
+          <img className="d-block ms-auto mt-5 mediaIcons" src={socialMedias} alt="immgg" />
         </Container>
       </Col>
     </Row>

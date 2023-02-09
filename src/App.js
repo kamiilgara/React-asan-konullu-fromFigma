@@ -1,6 +1,6 @@
 import "./App.css";
+import { useState, useEffect } from "react";
 import NavbarCom from "./components/NavbarCom";
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import NewsComponents from "./components/NewsComponents";
 import MainPage from "./components/MainPage";
@@ -122,25 +122,26 @@ function App() {
     },
   ]
 
-  return (
-    <div className="App">
-      <NavbarCom classs={window.location.pathname === "/home" ? "headerBack--black" : "headerBack--blue"} />
-      <main>
-        <Routes>
-          <Route path="/home" element={<MainPage />} />
-          <Route path="/news" element={<NewsComponents news={news} />} />
-          <Route path="/news/:key" element={<OneNews news={news} />} />
-          <Route path="/media" element={<MediaPage media={media} />} />
-          <Route path="/media/:id" element={<OneMedia media={media} />} />
-          <Route path="/projects" element={<ProjectsCom projects={projects} />} />
-          <Route path="/projects/:key" element={<OneProject projects={projects} />} />
-          <Route path="/info" element={<ConnectPage />} />
-          <Route path="/ourteam" element={<AboutUsTeam />} />
-        </Routes>
-      </main>
-      <FooterCom />
+
+return (
+  <div className="App">
+    <NavbarCom />
+    <div className="main">
+      <Routes>
+        <Route path="/home" element={<MainPage />} />
+        <Route path="/news" element={<NewsComponents news={news} />} />
+        <Route path="/news/:key" element={<OneNews news={news} />} />
+        <Route path="/media" element={<MediaPage media={media} />} />
+        <Route path="/media/:id" element={<OneMedia media={media} />} />
+        <Route path="/projects" element={<ProjectsCom projects={projects} />} />
+        <Route path="/projects/:key" element={<OneProject projects={projects} />} />
+        <Route path="/info" element={<ConnectPage />} />
+        <Route path="/ourteam" element={<AboutUsTeam />} />
+      </Routes>
     </div>
-  );
+    <FooterCom />
+  </div>
+);
 }
 
 export default App;

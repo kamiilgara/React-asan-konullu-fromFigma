@@ -16,7 +16,7 @@ function ControlledCarousel() {
           <div className="textCarousel">
           <h1>ASAN Könüllüləri</h1>
           <p>Könüllü sıralarına <b>SƏN</b> də qoşul.</p>
-          <button type={'button'}>Ətraflı oxu</button>
+          <button type={'button'} className='defaultButton'>Ətraflı oxu</button>
           </div>
         </div>
       </Carousel.Item>

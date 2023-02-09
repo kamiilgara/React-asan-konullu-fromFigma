@@ -57,8 +57,8 @@ function AboutUsTeam() {
 
 
   return (
-    <div className='pageHeader'>
-    <Container>
+    <div className='pageHeader ourTeams'>
+    <Container >
     <h1>HAQQIMIZDA</h1>
     <p>KOMANDAMIZ</p>
     <Row id='teamRow'>

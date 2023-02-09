@@ -53,30 +53,636 @@
   list-style: none;
 }
 
-@media screen and (min-width: 900px) {}
+@media screen and (max-width : 800px) {
 
-html,
-body {
-  height: 100%;
+  .App-logo img {
+    width: 41px;
+    height: 45px;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    padding: 10px 0px;
+    font-size: 10px;
+    line-height: 15px !important;
+    color: #FFFFFF;
+  }
+
+  .mainHead {
+    width: 100% !important;
+    height: 335px !important;
+  }
+
+  .modal-content .fa-magnifying-glass {
+    font-size: 30px !important;
+  }
+
+  .modal-content input {
+    border: none !important;
+    width: 280.8px !important;
+    height: 28.65px !important;
+    margin-left: auto !important;
+    padding: 0px 10px !important;
+    border-radius: 0px 0px 15px 0px !important;
+    -webkit-border-radius: 0px 0px 15px 0px !important;
+    -moz-border-radius: 0px 0px 15px 0px !important;
+    -ms-border-radius: 0px 0px 15px 0px !important;
+    -o-border-radius: 0px 0px 15px 0px !important;
+}
+
+  .carousel-item {
+    width: 100% !important;
+    padding-top: 10px !important;
+    height: 335px !important;
+    background: linear-gradient(0deg, rgba(2, 2, 2, 0.637), rgba(2, 2, 2, 0.637)),
+      url(./images//MainBackground.jpeg) fixed !important;
+  }
+
+  .carousel-indicators {
+    margin: 0px !important;
+  }
+
+  .textCarousel {
+    padding: 90px 30px !important;
+  }
+
+  .carousel-control-next {
+    right: 0px !important;
+  }
+
+  .carousel-control-prev {
+    left: 0px !important;
+  }
+
+  .textCarousel h1 {
+    font-size: 29px !important;
+    width: 40% !important;
+    margin: 0px !important;
+    line-height: 50px !important;
+  }
+
+  .textCarousel p {
+    padding: 0px !important;
+  }
+
+  * {
+    font-size: 10px !important;
+  }
+
+  .ourTeams {
+    margin: 0px 20px !important;
+  }
+
+  .ourProjectsDiv {
+    width: 90%;
+    height: 90%;
+    margin: 0px auto !important;
+  }
+
+  .ourProjects {
+    margin: 0px !important;
+  }
+
+  .ourProjects .row .col-lg-4 {
+    padding: 5px 0px !important;
+    margin-top: 0px !important;
+  }
+
+  .ourProjects .row {
+    margin-top: 10px;
+  }
+
+  #multi-react-awards {
+    margin-top: 0px !important;
+  }
+
+  .mapSvg {
+    margin-top: 10px !important;
+  }
+
+  .ourProjectsDiv img {
+    width: 100% !important;
+    border-radius: 0px 0px 14px 0px !important;
+    height: 100% !important;
+    -webkit-border-radius: 0px 0px 14px 0px !important;
+    -moz-border-radius: 0px 0px 14px 0px !important;
+    -ms-border-radius: 0px 0px 14px 0px !important;
+    -o-border-radius: 0px 0px 14px 0px !important;
+  }
+
+  .ourProjectsDiv a {
+    width: 90% !important;
+    height: 100% !important;
+    display: block !important;
+    margin: 0px auto !important;
+  }
+
+  .ourProjectsDiv a h5 {
+    top: 25px !important;
+    left: 20% !important;
+    padding: 0px !important;
+  }
+
+  .newsDate {
+    margin: 0px !important;
+    padding: 10px 0px 0px !important;
+  }
+
+  .twoImage a {
+    min-width: 94px !important;
+  }
+
+  .twoImage div {
+    min-width: 110px !important;
+  }
+
+  .aboutAct,
+  .mediaCom,
+  .topmargin,
+  .ourProjects,
+  .pageHeader {
+    margin-top: 40px !important;
+    padding: 0px 10px !important;
+  }
+
+  .twoImage {
+    justify-content: space-between !important;
+    padding: 0px 25px !important;
+  }
+
+  .leftDaily h1 {
+    line-height: 8px !important;
+  }
+
+  .topmargin .col-6 {
+    margin-bottom: auto !important;
+  }
+
+  .topmargin h3 {
+    padding: 0px !important;
+  }
+
+  .dailyHistory {
+    margin: 0px !important;
+    border-radius: 0px 0px 30px 0px !important;
+    padding: 10px !important;
+    width: 155px !important;
+    height: 179px !important;
+    -webkit-border-radius: 0px 0px 30px 0px !important;
+    -moz-border-radius: 0px 0px 30px 0px !important;
+    -ms-border-radius: 0px 0px 30px 0px !important;
+    -o-border-radius: 0px 0px 30px 0px !important;
+  }
+
+  .daily {
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+
+  .dailyInput {
+    width: 70% !important;
+    padding: 2px 10px !important;
+  }
+
+  .dailtBtn {
+    width: 30% !important;
+  }
+
+  #dailyNews p {
+    line-height: 14px !important;
+    height: 110px !important;
+    overflow: hidden !important;
+  }
+
+  #dailyNews h2 {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  #dailyNews h3 {
+    line-height: 10px !important;
+    margin: 0px !important;
+  }
+
+  .topmargin .row {
+    position: relative !important;
+  }
+
+  .twoImage img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .aboutCol img {
+    width: 100% !important;
+    /* height: 112px !important; */
+    display: block !important;
+    margin: 0px auto !important;
+    border-radius: 0px 0px 18px 0px !important;
+    -webkit-border-radius: 0px 0px 18px 0px !important;
+    -moz-border-radius: 0px 0px 18px 0px !important;
+    -ms-border-radius: 0px 0px 18px 0px !important;
+    -o-border-radius: 0px 0px 18px 0px !important;
+  }
+
+  .aboutCol h5 {
+    font-weight: 400 !important;
+  }
+
+  .aboutCol h1 {
+    display: none;
+  }
+
+  .aboutCol p {
+    height: 65px !important;
+    overflow: hidden;
+  }
+
+  .aboutCol button {
+    margin-top: 20px !important;
+  }
+
+  .newsList h4 {
+    font-size: 12px !important;
+    margin: 13px 0px 11px 0px !important;
+  }
+
+  .oneNews img {
+    width: 280px !important;
+    margin: 0px auto;
+    border-radius: 0px 0px 70px 0px;
+    height: 226px !important;
+    -webkit-border-radius: 0px 0px 70px 0px;
+    -moz-border-radius: 0px 0px 70px 0px;
+    -ms-border-radius: 0px 0px 70px 0px;
+    -o-border-radius: 0px 0px 70px 0px;
+  }
+
+  .navbar-collapse {
+    padding: 0px 10px !important;
+  }
+
+  .navbar-toggler svg {
+    font-size: 18px !important;
+  }
+
+  .navbutton {
+    padding: 0px !important;
+  }
+
+  #nav1,
+  #nav2 {
+    margin: 10px 5px !important;
+    width: 28px !important;
+    height: 28px !important;
+    line-height: 24px !important;
+  }
+
+  .projectsCarousel h1,
+  p,
+  h5 {
+    margin: 0px !important;
+    line-height: 18px !important;
+  }
+
+  .projectsCarousel p {
+    margin-top: 15px !important;
+  }
+
+  .projectsCarousel .react-multiple-carousel__arrow {
+    padding: 0px !important;
+  }
+
+  .projectsCarousel .react-multiple-carousel__arrow--right {
+    width: 29px !important;
+    height: 29px !important;
+    right: 10px !important;
+  }
+
+  .react-multiple-carousel__arrow {
+    min-width: 28px !important;
+    min-height: 28px !important;
+  }
+
+  .projectsCarousel .react-multiple-carousel__arrow--left {
+    left: 250px !important;
+  }
+
+  .react-multiple-carousel__arrow--left {
+    font-size: 10px !important;
+  }
+
+  #aboutfooter {
+    display: none;
+  }
+
+  .icons {
+    display: none !important;
+  }
+
+  .firstColFooter p {
+    padding: 15px !important;
+    width: 200px !important;
+  }
+
+  .footerStyle {
+    padding-top: 20px !important;
+  }
+
+  .otherColFooter h1 {
+    margin: 0px !important;
+    padding-top: 20px !important;
+  }
+
+  .footerStyle .row {
+    padding-bottom: 25px !important;
+  }
+
+  .otherColFooter p {
+    padding: 5px 0px !important;
+  }
+
+  .pageIcons {
+    padding: 0px !important;
+  }
+
+  .pageIcons a .fa-link {
+    font-size: 24px !important;
+  }
+
+  .pageIcons a .fa-square-facebook {
+    font-size: 24px !important;
+  }
+
+  .pageIcons a .fa-linkedin {
+    font-size: 24px !important;
+  }
+
+  .pageIcons a .fa-twitter {
+    font-size: 24px !important;
+  }
+
+  .pageIcons a .fa-print {
+    font-size: 24px !important;
+  }
+
+  .oneNews h3 {
+    margin: 15px 0px !important;
+  }
+
+  .oneNews img {
+    margin-top: 10px !important;
+    width: 280px !important;
+    height: 226px !important;
+  }
+
+  .main {
+    margin-bottom: 60px !important;
+  }
+
+  .allComBack {
+    padding-top: 90px !important;
+  }
+
+  .allComBack h3 {
+    font-size: 12px !important;
+  }
+
+  .newsList {
+    padding: 0px 20px !important;
+  }
+
+  .newsText {
+    line-height: 18px !important;
+  }
+
+  .main-h1 {
+    margin: 5px 0px 0px !important;
+    font-size: 16px !important;
+    padding-left: 20px !important;
+  }
+
+  .writeUs {
+    margin: 40px 10px 0px;
+    padding: 12px !important;
+  }
+
+  .writeUs .form-group.mail {
+    margin-top: 15px !important;
+  }
+
+  textarea {
+    height: 200px !important;
+  }
+
+  .writeUs textarea {
+    margin-bottom: 45px !important;
+  }
+
+  .writeUs .row {
+    margin: 0px !important;
+  }
+
+  .writeUs button {
+    margin-top: 15px !important;
+  }
+
+  .mapDiv {
+    padding-top: 5px !important;
+  }
+
+  .divPlus {
+    width: 89.09px !important;
+    margin: 0px 8px !important;
+    height: 48.88px !important;
+    padding: 15px 10px !important;
+    border-radius: 0px 0px 15px 0px !important;
+    -webkit-border-radius: 0px 0px 15px 0px !important;
+    -moz-border-radius: 0px 0px 15px 0px !important;
+    -ms-border-radius: 0px 0px 15px 0px !important;
+    -o-border-radius: 0px 0px 15px 0px !important;
+  }
+
+  .ourAwards-h1 {
+    font-weight: 400 !important;
+    line-height: 8px !important;
+    margin-bottom: 10px !important;
+  }
+
+  #multi-carousel-awards {
+    padding: 10px 14px !important;
+    border-radius: 0px 0px 42px 0px;
+    -webkit-border-radius: 0px 0px 52px 0px !important;
+    -moz-border-radius: 0px 0px 42px 0px;
+    -ms-border-radius: 0px 0px 42px 0px;
+    -o-border-radius: 0px 0px 42px 0px;
+  }
+
+  #multi-carousel-awards img {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  #multi-carousel-awards h5 {
+    margin: 0px 0px 8px 0px !important;
+  }
+
+  .ourAwards .react-multiple-carousel__arrow--left {
+    bottom: 35px !important;
+    width: 30px !important;
+    height: 30px !important;
+    left: 40% !important;
+  }
+
+  .ourAwards .react-multiple-carousel__arrow--right {
+    bottom: 35px !important;
+    width: 30px !important;
+    height: 30px !important;
+    right: 40% !important;
+  }
+
+  .divPlus svg {
+    font-size: 22px !important;
+    padding-right: 5px !important;
+  }
+
+  .fa-location-dot,
+  .fa-phone,
+  .fa-envelope {
+    font-size: 28px !important;
+  }
+
+  .dropdown-toggler {
+    position: relative !important;
+  }
+
+  .dropdown-menu {
+    position: absolute !important;
+    top: -4px !important;
+    left: 60px !important;
+  }
+
+  .navbarSocial svg {
+    margin-top: 8px !important;
+    font-size: 18px !important;
+  }
+
+  .defaultButton,
+  .defaultLink,
+  .moreInfo {
+    padding: 7px 13px !important;
+    margin-top: 8px !important;
+  }
+
+  .navbar-toggler button svg {
+    font-size: 20px !important;
+  }
+
+  .navbutton2 svg {
+    font-size: 16px !important;
+  }
+
+  .media {
+    padding: 0px 10px;
+  }
+
+  .mediaIcons {
+    margin: 0px !important;
+    margin-right: auto !important;
+    width: 145px;
+    height: 95px;
+  }
+
+  .ourProjects h5 {
+    margin: 0px 0px !important;
+    font-weight: 400 !important;
+    line-height: 8px !important;
+  }
+
+  .ourProjects h4 {
+    display: none !important;
+  }
+
+  .media h2 {
+    margin: 5px 0px !important;
+    font-size: 12px !important;
+  }
+
+  .media img {
+    object-fit: cover !important;
+    width: 340px !important;
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+    object-fit: cover !important;
+  }
+
+  .media h3 {
+    letter-spacing: 0px !important;
+    margin: 35px 0px 2px !important;
+  }
+
+  .media p,
+  h3,
+  h2 {
+    padding: 0px 10px !important;
+  }
+
+  .container {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+
+  .navbar {
+    padding: 0px 15px !important;
+  }
+
+  #headerBack {
+    padding: 10px 0px;
+  }
+
+  .nav-link {
+    margin: 0px !important;
+    padding: 8px 0px;
+  }
+
+  .navbutton1 {
+    display: none;
+  }
+
+  .navbutton2 {
+    display: block !important;
+  }
+
 }
 
 .App {
   display: flex;
+  min-height: 100vh;
+  min-width: 100% !important;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+}
+
+.mainPage {
+  width: 100%;
 }
 
 .container {
   padding: 0px;
 }
 
-main {
+.main {
   flex: 1;
+  width: 100%;
+  height: 100%;
   margin-bottom: 145px;
 }
 
 /* NAVBAR  */
+
+.navbutton2 {
+  display: none;
+}
 
 #basic-navbar-nav {
   display: flex;
@@ -89,6 +695,7 @@ main {
 
 #headerBack {
   position: fixed;
+  width: 100%;
   z-index: 3;
 }
 
@@ -98,14 +705,13 @@ main {
 
 .headerBack--black {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 15px 0px;
+  padding: 0px 0px;
   width: 100%;
-  margin-bottom: 0px;
 }
 
 .headerBack--blue {
   background: #104de5;
-  padding: 15px 0px;
+  padding: 0px 0px;
   width: 100%;
 }
 
@@ -113,7 +719,6 @@ main {
   color: #ffffff;
   font-size: 20px;
   margin: 0px 15px;
-  line-height: 30px;
   font-weight: 500;
 }
 
@@ -133,24 +738,18 @@ main {
 }
 
 /* DROPDOWN  */
-
+/* 
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 15px;
-}
+  margin: 0px;
+  border: 0px;
+} */
 
 .dropdown-menu {
-  border-top: 2px white solid;
   background: none;
   margin: 0px;
-  box-shadow: 0px 10px 20px 0px;
-  top: 150px;
-  padding: 0px;
-  border-radius: 0px 0px 40px 0px;
-  -webkit-border-radius: 0px 0px 40px 0px;
-  -moz-border-radius: 0px 0px 40px 0px;
-  -ms-border-radius: 0px 0px 40px 0px;
-  -o-border-radius: 0px 0px 40px 0px;
+  border: none;
+  padding-top: 2px;
 }
 
 .dropdown-menu .dropdown-item {
@@ -161,7 +760,7 @@ main {
 }
 
 .dropdown-item:hover {
-  background-color: rgba(0, 0, 0, 0.719);
+  background-color: #0a39b1;
 }
 
 .dropdown-menu .dropdown-item:last-child {
@@ -189,13 +788,17 @@ main {
 }
 
 .social-a {
-  color: white;
   font-size: 24px;
   /* line-height: 54px; */
 }
 
-.social-a :hover {
-  color: white;
+.mapsvg-region:hover {
+  fill: hsl(225, 50%, 32%) !important;
+  stroke: hsl(210deg, 17%, 98%);
+}
+
+.firstColFooter .social-a:hover {
+  color: #646464;
 }
 
 .social .list-group-horizontal .list-group-item:last-child button {
@@ -208,6 +811,57 @@ main {
 }
 
 /* NAVBAR END  */
+
+/* MODAL START */
+.fade {
+  overflow: scroll;
+  background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(30px);
+}
+
+.modal-content {
+  border: none;
+  width: 170%;
+  background: none;
+}
+
+.modal-body {
+  align-items: center;
+}
+
+.button1 {
+  color: rgba(255, 255, 255, 0.7);
+  background: none;
+  border: none;
+  font-size: 60px;
+}
+
+.button2 {
+  color: #104de5;
+  background: none;
+  border: none;
+  font-size: 60px;
+}
+
+.modal-content input {
+  width: 723px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px gray solid;
+  font-weight: 500;
+  padding: 10px 31px;
+  font-size: 30px;
+  color: #262A4E;
+  height: 70px;
+  border-radius: 0px 0px 40px 0px;
+  -webkit-border-radius: 0px 0px 40px 0px;
+  -moz-border-radius: 0px 0px 40px 0px;
+  -ms-border-radius: 0px 0px 40px 0px;
+  -o-border-radius: 0px 0px 40px 0px;
+}
+
+
+/* MODAL END  */
 
 /* MAINPAGE  */
 
@@ -226,14 +880,18 @@ main {
   -o-border-radius: 100%;
 }
 
-.twoImage div p {
+.twoImage a {
+  text-decoration: none;
+  color: black;
+}
+
+.twoImage p {
   font-weight: 600;
   font-size: 20px;
-  line-height: 30px;
   text-align: center;
   padding-top: 20px;
   letter-spacing: 0.05em;
-  color: #262a4e;
+  color: black !important;
 }
 
 .divPlus {
@@ -295,8 +953,23 @@ main {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 20px;
   text-align: justify;
   color: #747474;
+}
+
+.defaultLink {
+  text-decoration: none;
+  background-color: #104de5;
+  padding: 12px 22px 16px 25px;
+  align-items: center;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 .defaultButton {
@@ -379,12 +1052,17 @@ main {
 
 .ourProjectsDiv a {
   position: relative;
+  overflow: hidden;
   display: block;
-  width: 100%;
+  /* width: 100%; */
+  width: 425px;
+  height: 343px;
 }
 
 .ourProjectsDiv a img {
   width: 100%;
+  object-fit: cover;
+  transition: transform .2s;
   height: 100%;
   filter: brightness(0.5);
   border-radius: 0px 0px 70px 0px;
@@ -393,12 +1071,26 @@ main {
   -ms-border-radius: 0px 0px 70px 0px;
   -o-border-radius: 0px 0px 70px 0px;
   -webkit-filter: brightness(0.5);
+  -webkit-transition: transform .2s;
+  -moz-transition: transform .2s;
+  -ms-transition: transform .2s;
+  -o-transition: transform .2s;
 }
+
+.ourProjectsDiv a:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
 
 .ourProjects a h5 {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 50px;
+  padding-top: 25px;
   color: white;
   font-size: 28px;
   top: 35%;
@@ -410,6 +1102,10 @@ main {
 
 .mapDiv {
   padding: 50px 0px;
+}
+
+.map {
+  background-color: red;
 }
 
 .mapDiv img {
@@ -477,7 +1173,7 @@ main {
   text-align: justify;
   font-size: 16px;
   color: #646464;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 25px;
 }
 
@@ -529,7 +1225,7 @@ main {
   color: #646464;
 }
 
-#dailyHistory {
+.dailyHistory {
   padding: 39px 30px 0px 30px;
   height: 483px;
   width: 418px;
@@ -558,31 +1254,40 @@ main {
   padding: 0px;
 }
 
-#dailyHistory:hover {
+.dailyHistory {
+  background-color: white;
+  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -ms-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+}
+
+.dailyHistory:hover {
   background-color: #104de5;
 }
 
-#dailyHistory:hover h3 {
+.dailyHistory:hover h3 {
   color: white;
 }
 
-#dailyHistory:hover h2 {
+.dailyHistory:hover h2 {
   color: white;
 }
 
-#dailyHistory:hover p {
+.dailyHistory:hover p {
   color: white;
   font-weight: lighter;
 }
 
-#dailyHistory h3 {
+.dailyHistory h3 {
   font-weight: 600;
   line-height: 26px;
   font-size: 18px;
   color: #262a4e;
 }
 
-#dailyHistory h2 {
+.dailyHistory h2 {
   font-size: 18px;
   font-weight: 500;
   margin: 40px 0px 22px 0px;
@@ -590,11 +1295,11 @@ main {
   line-height: 27px;
 }
 
-#dailyHistory:hover button {
+.dailyHistory:hover button {
   color: white;
 }
 
-#dailyHistory p {
+.dailyHistory p {
   text-align: justify;
   letter-spacing: -0.01em;
   font-weight: 400;
@@ -606,7 +1311,7 @@ main {
   word-wrap: break-word;
 }
 
-#dailyHistory button {
+.dailyHistory button {
   border: none;
   background: none;
   color: #104de5;
@@ -882,10 +1587,10 @@ main {
 }
 
 
- /* connect component start  */
+/* connect component start  */
 
 
- .col-lg-3 {
+.col-lg-3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -979,7 +1684,7 @@ textarea {
 }
 
 
- /* connect compononent end */
+/* connect compononent end */
 
 .ulList {
   padding: 0px;
@@ -1010,7 +1715,6 @@ textarea {
 
 .newsText {
   font-weight: lighter;
-  line-height: 24px;
   margin: 0px;
   font-size: 16px;
   height: 52px;
@@ -1225,8 +1929,7 @@ textarea {
 
 .footerStyle {
   background-color: rgba(16, 77, 229, 0.1);
-  padding: 72px 0px 0px 0px;
-  /* margin-top: 145px; */
+  padding: 72px 15px 0px;
 }
 
 .footerStyle p {

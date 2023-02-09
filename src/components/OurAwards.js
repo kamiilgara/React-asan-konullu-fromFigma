@@ -22,7 +22,7 @@ const responsive = {
 };
 
 function OurAwards() {
-  
+
   const [ourAwards] = useState([
     {
       key: 1,
@@ -52,19 +52,19 @@ function OurAwards() {
 
   return (
     <div className="ourAwards">
-    <h1 className="ourAwards-h1">MÜKAFATLARIMIZ</h1>
-      <Carousel responsive={responsive} renderArrowsWhenDisabled removeArrowOnDeviceType={["tablet", "mobile"]} >
+      <h1 className="ourAwards-h1">MÜKAFATLARIMIZ</h1>
+      <Carousel responsive={responsive} renderArrowsWhenDisabled  >
         {ourAwards.map((award) => (
           <div key={award.key}>
-          <div id="multi-carousel-awards">
-            <img
-              src={award.image}
-              width={"110px"}
-              height={"110px"}
-              alt={"BMT"}
-            />
-            <h5>{award.head}</h5>
-            <p>{award.text}</p>
+            <div id="multi-carousel-awards">
+              <img
+                src={award.image}
+                width={"110px"}
+                height={"110px"}
+                alt={"BMT"}
+              />
+              <h5>{award.head}</h5>
+              <p>{award.text}</p>
             </div>
           </div>
         ))}

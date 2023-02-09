@@ -20,7 +20,7 @@ const ourProjects = [
   {
     id: 1,
     head: 'Hərbi Vətənpərvərlik',
-    image: 'https://s3-alpha-sig.figma.com/img/66bd/1407/2bd03eec82877d67c06ed20c141e7591?Expires=1674432000&Signature=MxcOlS6jsL9YlsGnbv15aIatq3fEiAQl8HX0y~0~gsi2d8-B0jykJrls5yXEN5nwhjeTQy0cVrFSSDn1RA53mH4f5fowvtT~01bk0WBwtCvP55VQ0s8FOaz62OKGM16R62iCNv5o06vvAJj8pWkUFFwLq3y49Ax-53hE1RxO8s1PyiwKcx0ews7SWHtq6UAKSyGLiWacnwCJm-Xz28~35o0CM4I0Yht59j9TbeEWrpwqh8rdYRzWddktft3PVX33aZAsKyycTfbz-92J4wlnukfb85igQSkKIvBZSXg9fpeIdQU8DBjcmFhYpmtJgtpGSlNcuKanTZ7ZCfock3Fu0Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+    image: 'https://s3-alpha-sig.figma.com/img/66bd/1407/2bd03eec82877d67c06ed20c141e7591?Expires=1676851200&Signature=n~g4OPqlrCC-h9rLUTqgA1zlTZIsuE0khREOcBrsRTHyyPzsuXRDvmblSG8sNeLm04A9b7s8IWhrDxSHmzTdJQl~vKV1XRT0w0OSn~iJbtre7U1-dw~uL2Xe1FmhQEHZ-ZiHy7y3vTuuEebAKbE1s6FfBSQasyi8zK-g3dhynJ2MEOZhtI8e0Wvm-8bzyw2puucgmjGczMlfLcYNFi2X-iXy3EaLp5m2q8MS97uxVZebblnKP7qR~7sn~-oVkwAZH4Ob~KUFdFCOiPhU0sTfI0zySIuxo4kUu6HXxbHSv7STh-8azPylxACYM-UnT2iH~xfQnoBUI8hmIef1ptEUOg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
   },
   {
     id: 2,
@@ -30,12 +30,12 @@ const ourProjects = [
   {
     id: 3,
     head: 'Şəxsi İnkişaf',
-    image: 'https://s3-alpha-sig.figma.com/img/a897/f787/b053809e8b0dd3a65c415fc745b3ff20?Expires=1674432000&Signature=ohJPrE4c5gD~B-5ghLH-aenC2DxyzbedrapKKLTks~s5RJcNZjpcsVC35cE-Jjj4MwV9hBvRKvPfXW-iBNOCPrgEmpwaAOkTltA9wh89hAgl5224lDpN6S4G3RJjAVDSgH1RlyoApW0aZW7LOrGcChEpKA5i7IX4oRe~IrLKkOWadFNv~5baHH36t8oxD7RHsDFfS-TyiBm-akK~OkBcJt0dyO7EVdyA1p-0SThrrgOOssAvAj1YDQi0DNNm5SppexxaL65MQPmRmCLzovnRWz7bGTboBtAJOz6R29PeyJAQhzDwCyvcxo6iTTsXQXQE8TOTbeJjYsuk0SoEGAf9Dg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+    image: 'https://s3-alpha-sig.figma.com/img/a897/f787/b053809e8b0dd3a65c415fc745b3ff20?Expires=1676851200&Signature=lw11gUbtVTsXyIgkVm3aFe4LIrRXHe1qSbufXGpuFHCjqz~b6yT~7qPSArKCzZc5fODKOpkmI2-MG55iRDT8JXl82oyfSMC8VNmW-u1wtubO9PWAlyazyWcHEa6xUJJgAb8X5j~M1-RcIR7HuxMuTm7U3u54r-aCUHr1vaVT-ITe4P5O9isX-zmYx8cWH-6ZM16nqTlQlGj2THHRNe20ywdPXf5BZKmkGd9prasEvphPjqewlvz2JVbFVw73KDmS-Y~muL74-jBddA~Obfw3m~Qlm4EAyljnQ9lHku5vBplOKI8bijQUr-QI1Pg707vHseh82-X6D5c1pbOGhkGLww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
   },
   {
     id: 4,
     head: 'Sosial',
-    image: 'https://s3-alpha-sig.figma.com/img/c2af/171f/8a95d08524408b5161b02e3b1a0eb4a5?Expires=1674432000&Signature=bu2Ll8JMriFBU77cOV~IEXI54AUY14TnVKWS0YIVNaTyE3zPrTbtEhvMF2Ly~obHZzVpSzh7ZclEBYrYS7fK~xHvzrmlfvFuUml7AZStb5ciTdHjMkhh3NXHMdxZ2CoU5QHpYR3fF5aHMCybOwpQnWLXHoZbk4Lanp0PtEnF5h9~Q0b~uHdR48M5sUh87Sn6GuhNqxsVkwetWBZYOXuyjdaxYZ0iX0cxYsbN88wuUqcD4qPbCCw0QBnz9Gu-7IB9biotVvLV~N6p6xmQjxi~-g0WXtUuthX2pX06NdFmc8YZnncTt--Y8ZgWF0StuOPJdFvEvQHQeeMyJ8WBePJEoA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+    image: 'https://s3-alpha-sig.figma.com/img/c2af/171f/8a95d08524408b5161b02e3b1a0eb4a5?Expires=1676851200&Signature=Rs1vF0mFTxEGYJkuSsfKlDplbNlFiE8-1m28csI4ttTNm6Bm5P5bfQZrX4DLO6M3rEYMG~7hrBP9POFIuZCZnAoWA5SnZRw23wIpD68aEV0p3ogQMu8Un42f1~Q3C78SKQdSliZJn2wwVyzsR7xvx7pCLsxPFJL9LDlEAnyQr56ftnljrl8cPU3w-HnVpOiMIl~zEekiK0fvFuYDoyYwAiHXp~zGQqWQGhrgn83pl8Ak5Dv5TT3jVKY-y70hXaAP~qp~JelOykQWDpQeQch~6sUjcOA0BYU-U7O8msrDzDWrRZI6zI1Dg02OMXrCauMVJLfRNfsJrpAsa9M0W8LMeg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
   },
 ]
 

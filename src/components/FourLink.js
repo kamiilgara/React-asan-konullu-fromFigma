@@ -8,24 +8,24 @@ function FourLink() {
     <div className="aboutAct">
       <Row>
         <Col className="twoImage" lg={6}>
-          <div>
+          <a href="/ourteam">
             <img src={konullu} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>KOMANDAMIZ</p>
-          </div>
-          <div>
+          </a>
+          <a href="/">
             <img src={konullus} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>TƏRƏFDAŞLAR</p>
-          </div>
+          </a>
         </Col>
         <Col lg={6} className='twoImage'>
-          <div>
+          <a href="/">
             <img src={konullu} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>STRUKTUR</p>
-          </div>
-          <div>
+          </a>
+          <a href="/">
             <img src={konullus} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>MÜKAFATLARIMIZ</p>
-          </div></Col>
+          </a></Col>
       </Row>
     </div>
   );
