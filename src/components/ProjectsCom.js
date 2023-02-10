@@ -11,7 +11,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1480, min: 1050 },
-    items: 2,
+    items: 1,
     slidesToSlide: 1
   },
   mobile: {
@@ -32,11 +32,12 @@ function ProjectsCom({ projects }) {
           <p>BEYNƏLXALQ</p>
           <Carousel responsive={responsive} className='projectsCarousel' renderArrowsWhenDisabled>
             {projects.map((project) =>
-              <div key={project.key}>
+              <div key={project.key}> 
+              <div className="indicatorss"></div>
                 <h5>{project.head}</h5>
-                <img src={project.image} alt='projectImage' width={'397px'} />
+                <img src={project.image} alt='projectImage' className="d-block" width={'397px'} />
                 <p>{project.text}</p>
-                <Link to={`${project.key}`} className='moreInfo'>Ətraflı oxu</Link>
+                <Link to={`${project.key}`} className='defaultLink'>Ətraflı oxu</Link>
               </div>
             )}
           </Carousel>

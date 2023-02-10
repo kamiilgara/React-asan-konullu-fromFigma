@@ -13,7 +13,7 @@ const responsive = {
 
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 1,
+    items: 2,
     slidesToSlide: 1, // optional, default to 1.
   },
 
@@ -24,14 +24,6 @@ const responsive = {
   },
 };
 
-const CustomRightArrow = ({ onClick, ...rest }) => {
-  const {
-    onMove,
-    carouselState: { currentSlide, deviceType }
-  } = rest;
-  // onMove, sürükleme veya kaydırma işleminin devam ettiği anlamına gelir. 
-  return < button onClick={() => onClick()} />;
-};
 
 function HistoryToday() {
 
@@ -65,7 +57,7 @@ function HistoryToday() {
   return (
     <div className="topmargin">
       <Row>
-        <Col lg={3} className='col-6' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <Col md={'3'} className='col-5' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <div className="leftDaily">
             <h3>Tarixdə Bu Gün</h3>
             <h1>31 Mart</h1>
@@ -81,8 +73,8 @@ function HistoryToday() {
             </div>
           </div>
         </Col>
-        <Col className="col-6" lg={9} id='dailyNews' >
-          <Carousel responsive={responsive} renderArrowsWhenDisabled removeArrowOnDeviceType={['mobile', 'tablet']} >
+        <Col className="col-7" md={'9'} id='dailyNews' >
+          <Carousel responsive={responsive} renderArrowsWhenDisabled removeArrowOnDeviceType={['tablet']} >
             {dailyNews.map((dailyNew) =>
               <div key={dailyNew.key} className='dailyHistory' >
                 <h3>{dailyNew.header}</h3>

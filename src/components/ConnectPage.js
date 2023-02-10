@@ -10,33 +10,33 @@ const connectIcons = {
   fontSize: '28px',
   padding: '0px 5px 7px 5px',
   borderRadius: '20%'
-  }
+}
 
 function ConnectPage() {
   return (
-    <div className='allComBack'>
+    <div className='allComBack connectPage'>
       <Container>
 
         <Row className="px-2 justify-content-between">
           <Col lg='3' >
-        <h1 className='ps-3'>ƏLAQƏ</h1>
+            <h1 className='ps-3'>ƏLAQƏ</h1>
 
             <div class="info">
               <div class="ps-3 my-5">
-              <FontAwesomeIcon  icon={faLocationDot} />
+                <FontAwesomeIcon icon={faLocationDot} />
                 <p className='mt-4'>Bakı, Azərbaycan, AZ 1078, Akademik Həsən Əliyev 36</p>
               </div>
               <div class="ps-3 my-5">
-              <FontAwesomeIcon type='light' icon={faPhone}></FontAwesomeIcon>
+                <FontAwesomeIcon type='light' icon={faPhone}></FontAwesomeIcon>
                 <p className='mt-4'>(+994 12) 444 74 75</p>
               </div>
               <div class="ps-3 my-5">
-              <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                 <p className='mt-4'>info@asanyouth.az</p>
               </div>
             </div>
 
-           <SocialMediaObjects iconsColor={connectIcons} id='connectSocial' />
+            <SocialMediaObjects iconsColor={connectIcons} id='connectSocial' />
 
           </Col>
           <Col lg='8'>

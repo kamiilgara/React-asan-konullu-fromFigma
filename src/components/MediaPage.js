@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom';
 
 function MediaPage({ media }) {
   return (
-    <div className='allComBack'>
+    <div className='allComMedia'>
       <Container>
         <h1 className="main-h1">MEDIA</h1>
-
         <Row>
           {media.map(mediaa =>
             <Col lg='4' key={mediaa.id}>

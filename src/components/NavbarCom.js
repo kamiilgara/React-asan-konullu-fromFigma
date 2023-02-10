@@ -31,6 +31,7 @@ function NavbarCom({ classs }) {
       document.getElementById('headerBack').style.backgroundColor = '#104de5';
     } else {
       document.getElementById('headerBack').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
+
     }
 
     return () => {
@@ -48,7 +49,7 @@ function NavbarCom({ classs }) {
 
   return (
     <div className={classs} id="headerBack" >
-      <Navbar bg="transparent" className="container" expand="md">
+      <Navbar bg="transparent" className="container" expand="lg">
         <Navbar.Brand href="/home" className="App-logo">
           <img src={logo} width={"84px"} alt={"Asan logo"} classs='logo-view' />
         </Navbar.Brand>

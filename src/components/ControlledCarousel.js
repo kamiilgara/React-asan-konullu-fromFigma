@@ -12,7 +12,6 @@ function ControlledCarousel() {
     <Carousel className="mainHead" onSelect={handleSelect} slide={true} interval={60000} >
       <Carousel.Item>
         <div className="carouselText container">
-          {/* <img className="mainCarousel d-block w-100" /> */}
           <div className="textCarousel">
           <h1>ASAN Könüllüləri</h1>
           <p>Könüllü sıralarına <b>SƏN</b> də qoşul.</p>
@@ -21,7 +20,6 @@ function ControlledCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <img className="mainCarousel d-block w-100"  /> */}
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -29,7 +27,6 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <img className="mainCarousel d-block w-100" /> */}
 
         <Carousel.Caption>
           <h3>Third slide label</h3>

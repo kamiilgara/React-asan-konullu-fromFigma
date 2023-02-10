@@ -9,7 +9,7 @@ function AboutUsTeam() {
       id : 0,
       head : 'ASAN MƏKTUB',
       text : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore',
-      image : 'https://s3-alpha-sig.figma.com/img/49e5/9a89/958ff39f7c07b0da72572d24722dc9a4?Expires=1673222400&Signature=I~M8QEe5kEm0NJybHjkeSMUin-NADjIIkKjN0FkkHkso~75bbTofOe9hSd6P2LUIEYtaUDsBaIb0tlSXNgV7VfH-qnQUAbTJGXe02cDVMI~iuqDxqobiDQ1ZnGyaesg1SCrTFrS0YXQdSPlyzxYAV8oXmSBppKAbjmZyzGt9NHMVjmL0HGEeznIUmxm-OnTBJcvYReHefYRIKn6O7MWNgVd8zWwEGKp11bOk324MiuqtLEWxZKiCs8kUcikTDZL6~as-sgKTaC5bBxVtr59rah7kzOfUGcVkKzSfwYeymIkgd-0CIuP-Oo7fAWVdhD2wNNSchLOtjS7I0sfuX7clsg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+      image : 'https://s3-alpha-sig.figma.com/img/f6ba/89b9/a22db462748c3da526dddebf9a698486?Expires=1676851200&Signature=VdEoY0NrbdSrj5u3emTOAyuytgAGvn1RHcQKuEvHshj3zD9ZozledOqMEAEgUTqOQSvbmEXDEGdE5ifXbJK-jADAy3uD2PN6dcnwi3DXVm6PyqgOErNeFIdTvRebQ3gSyKg7m8jIWd6aMH6k5-jBh4SLb3WPA94fEqYAAdGloVclLAIE-d1N~9lKtXSBgFZTsYtG3GL2a~ervsHyxlsua-HLYtuoK~uwfGtE-plMxDqTigXzDrSncoXY8rcXmaScw5w-nsWgpn2gQpi4xoJlwqWfqrNCkzXMWcKsBEyXdMSMzkAiS2JWq0YaCUIFOS-zPn44scMEHSlTJnw2aCc2ZQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
     },
     {
       id : 1,
@@ -21,7 +21,7 @@ function AboutUsTeam() {
       id : 2,
       head : 'ƏSGƏRƏ MƏKTUB',
       text : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore',
-      image : 'https://s3-alpha-sig.figma.com/img/49e5/9a89/958ff39f7c07b0da72572d24722dc9a4?Expires=1673222400&Signature=I~M8QEe5kEm0NJybHjkeSMUin-NADjIIkKjN0FkkHkso~75bbTofOe9hSd6P2LUIEYtaUDsBaIb0tlSXNgV7VfH-qnQUAbTJGXe02cDVMI~iuqDxqobiDQ1ZnGyaesg1SCrTFrS0YXQdSPlyzxYAV8oXmSBppKAbjmZyzGt9NHMVjmL0HGEeznIUmxm-OnTBJcvYReHefYRIKn6O7MWNgVd8zWwEGKp11bOk324MiuqtLEWxZKiCs8kUcikTDZL6~as-sgKTaC5bBxVtr59rah7kzOfUGcVkKzSfwYeymIkgd-0CIuP-Oo7fAWVdhD2wNNSchLOtjS7I0sfuX7clsg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+      image : 'https://s3-alpha-sig.figma.com/img/f6ba/89b9/a22db462748c3da526dddebf9a698486?Expires=1676851200&Signature=VdEoY0NrbdSrj5u3emTOAyuytgAGvn1RHcQKuEvHshj3zD9ZozledOqMEAEgUTqOQSvbmEXDEGdE5ifXbJK-jADAy3uD2PN6dcnwi3DXVm6PyqgOErNeFIdTvRebQ3gSyKg7m8jIWd6aMH6k5-jBh4SLb3WPA94fEqYAAdGloVclLAIE-d1N~9lKtXSBgFZTsYtG3GL2a~ervsHyxlsua-HLYtuoK~uwfGtE-plMxDqTigXzDrSncoXY8rcXmaScw5w-nsWgpn2gQpi4xoJlwqWfqrNCkzXMWcKsBEyXdMSMzkAiS2JWq0YaCUIFOS-zPn44scMEHSlTJnw2aCc2ZQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
     },
     {
       id : 3,
@@ -33,7 +33,7 @@ function AboutUsTeam() {
       id : 4,
       head : 'LİD',
       text : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore',
-      image : 'https://s3-alpha-sig.figma.com/img/49e5/9a89/958ff39f7c07b0da72572d24722dc9a4?Expires=1673222400&Signature=I~M8QEe5kEm0NJybHjkeSMUin-NADjIIkKjN0FkkHkso~75bbTofOe9hSd6P2LUIEYtaUDsBaIb0tlSXNgV7VfH-qnQUAbTJGXe02cDVMI~iuqDxqobiDQ1ZnGyaesg1SCrTFrS0YXQdSPlyzxYAV8oXmSBppKAbjmZyzGt9NHMVjmL0HGEeznIUmxm-OnTBJcvYReHefYRIKn6O7MWNgVd8zWwEGKp11bOk324MiuqtLEWxZKiCs8kUcikTDZL6~as-sgKTaC5bBxVtr59rah7kzOfUGcVkKzSfwYeymIkgd-0CIuP-Oo7fAWVdhD2wNNSchLOtjS7I0sfuX7clsg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+      image : 'https://s3-alpha-sig.figma.com/img/f6ba/89b9/a22db462748c3da526dddebf9a698486?Expires=1676851200&Signature=VdEoY0NrbdSrj5u3emTOAyuytgAGvn1RHcQKuEvHshj3zD9ZozledOqMEAEgUTqOQSvbmEXDEGdE5ifXbJK-jADAy3uD2PN6dcnwi3DXVm6PyqgOErNeFIdTvRebQ3gSyKg7m8jIWd6aMH6k5-jBh4SLb3WPA94fEqYAAdGloVclLAIE-d1N~9lKtXSBgFZTsYtG3GL2a~ervsHyxlsua-HLYtuoK~uwfGtE-plMxDqTigXzDrSncoXY8rcXmaScw5w-nsWgpn2gQpi4xoJlwqWfqrNCkzXMWcKsBEyXdMSMzkAiS2JWq0YaCUIFOS-zPn44scMEHSlTJnw2aCc2ZQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
     },
     {
       id : 5,
@@ -45,7 +45,7 @@ function AboutUsTeam() {
       id : 6,
       head : 'NÜMAYƏNDƏLİKLƏR',
       text : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore',
-      image : 'https://s3-alpha-sig.figma.com/img/49e5/9a89/958ff39f7c07b0da72572d24722dc9a4?Expires=1673222400&Signature=I~M8QEe5kEm0NJybHjkeSMUin-NADjIIkKjN0FkkHkso~75bbTofOe9hSd6P2LUIEYtaUDsBaIb0tlSXNgV7VfH-qnQUAbTJGXe02cDVMI~iuqDxqobiDQ1ZnGyaesg1SCrTFrS0YXQdSPlyzxYAV8oXmSBppKAbjmZyzGt9NHMVjmL0HGEeznIUmxm-OnTBJcvYReHefYRIKn6O7MWNgVd8zWwEGKp11bOk324MiuqtLEWxZKiCs8kUcikTDZL6~as-sgKTaC5bBxVtr59rah7kzOfUGcVkKzSfwYeymIkgd-0CIuP-Oo7fAWVdhD2wNNSchLOtjS7I0sfuX7clsg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+      image : 'https://s3-alpha-sig.figma.com/img/f6ba/89b9/a22db462748c3da526dddebf9a698486?Expires=1676851200&Signature=VdEoY0NrbdSrj5u3emTOAyuytgAGvn1RHcQKuEvHshj3zD9ZozledOqMEAEgUTqOQSvbmEXDEGdE5ifXbJK-jADAy3uD2PN6dcnwi3DXVm6PyqgOErNeFIdTvRebQ3gSyKg7m8jIWd6aMH6k5-jBh4SLb3WPA94fEqYAAdGloVclLAIE-d1N~9lKtXSBgFZTsYtG3GL2a~ervsHyxlsua-HLYtuoK~uwfGtE-plMxDqTigXzDrSncoXY8rcXmaScw5w-nsWgpn2gQpi4xoJlwqWfqrNCkzXMWcKsBEyXdMSMzkAiS2JWq0YaCUIFOS-zPn44scMEHSlTJnw2aCc2ZQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
     },
     {
       id : 7,
@@ -58,7 +58,7 @@ function AboutUsTeam() {
 
   return (
     <div className='pageHeader ourTeams'>
-    <Container >
+    <Container>
     <h1>HAQQIMIZDA</h1>
     <p>KOMANDAMIZ</p>
     <Row id='teamRow'>

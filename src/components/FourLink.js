@@ -7,7 +7,7 @@ function FourLink() {
   return (
     <div className="aboutAct">
       <Row>
-        <Col className="twoImage" lg={6}>
+        <Col className="twoImage" md={'6'}>
           <a href="/ourteam">
             <img src={konullu} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>KOMANDAMIZ</p>
@@ -17,7 +17,7 @@ function FourLink() {
             <p>TƏRƏFDAŞLAR</p>
           </a>
         </Col>
-        <Col lg={6} className='twoImage'>
+        <Col md={'6'} className='twoImage'>
           <a href="/">
             <img src={konullu} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>STRUKTUR</p>

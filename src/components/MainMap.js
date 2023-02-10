@@ -3,7 +3,7 @@ import azeMap from '../svg/aze-map.svg'
 
 function MainMap() {
   return (
-    <div className='ourProjects'>
+    <div className='ourProjects transitionCom'>
       <p>XƏRİTƏ</p>
       <h5>Sizin üçün <b>ASAN</b> olsun deyə bölgələrə gəldik!</h5>
       <div className='mapDiv'>

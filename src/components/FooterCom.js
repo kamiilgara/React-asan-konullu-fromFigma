@@ -11,6 +11,10 @@ const iconsColor = {
   'color': '#646464',
 }
 
+const iconsStyleFooter = {
+  'color': '#646464',
+}
+
 
 function Footer() {
 
@@ -46,7 +50,7 @@ function Footer() {
                 </Modal>
               </div>
             </Col>
-            <Col lg={2} className='otherColFooter col-6' >
+            <Col md={2} className='otherColFooter col-6' >
               <h1>Saytın Xəritəsi</h1>
               <ul>
                 <li><a href="/home">Ana Səhifə</a></li>
@@ -56,7 +60,7 @@ function Footer() {
                 <li><a href="/media">Media</a></li>
               </ul>
             </Col>
-            <Col lg={2} className='otherColFooter' id="aboutfooter">
+            <Col md={2} className='otherColFooter' id="aboutfooter">
               <h1>Haqqımızda</h1>
               <ul>
                 <li><a href="/ourteam">Komandamız</a></li>
@@ -64,7 +68,7 @@ function Footer() {
                 <li><a href="/">Mükafatlar</a></li>
               </ul>
             </Col>
-            <Col lg={2} className='otherColFooter col-6'>
+            <Col md={2} className='otherColFooter col-6'>
               <h1>Bizimlə Əlaqə</h1>
               <p>Bakı, Azərbaycan, AZ 1078, Akademik Həsən Əliyev 36</p>
               <p>T: (+994 12) 444 74 75

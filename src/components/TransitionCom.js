@@ -5,11 +5,11 @@ import { Row, Col } from 'react-bootstrap' ;
 
 function TransitionCom() {
   return (
-    <div className='ourProjects'>
+    <div className='ourProjects transitionCom'>
       <p style={{marginBottom : '2px'}}>KEÇİDLƏR</p>
       <h5>Birlikdə daha <b>ASAN</b>!</h5>
       <Row className='mt-5'>
-        <Col className="twoImage" lg={6}>
+        <Col className="twoImage" md={6}>
           <div>
             <img src={konullu} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>ASAN MƏKTUB</p>
@@ -19,7 +19,7 @@ function TransitionCom() {
             <p>ƏSGƏRƏ MƏKTUB</p>
           </div>
         </Col>
-        <Col lg={6} className='twoImage'>
+        <Col md={6} className='twoImage'>
           <div>
             <img src={konullu} width={"131.36px"} height={"131.36px"} alt={'Flink'} />
             <p>ASAN SCHOOL</p>
